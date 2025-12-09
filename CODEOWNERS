@@ -195,6 +195,9 @@
 # s3
 /src/content/docs/aws/services/s3.mdx @bentsku @k-a-il @quetzalliwrites @HarshCasper
 
+# s3tables
+/src/content/docs/aws/services/s3tables.mdx @hovaesco @quetzalliwrites @HarshCasper
+
 # sagemaker
 /src/content/docs/aws/services/sagemaker.mdx @silv-io @lukqw @quetzalliwrites @HarshCasper
 
