@@ -7110,16 +7110,6 @@
             "origin": "external"
           },
           {
-            "node_id": "LocalStack Pro: tests/aws/services/iotanalytics/test_iotanalytics.py::TestIotAnalytics::test_create_iotanalytics_resources",
-            "test": "test_create_iotanalytics_resources",
-            "response": "200",
-            "error": "",
-            "snapshot_skipped": "",
-            "aws_validated": false,
-            "snapshot_tested": false,
-            "origin": "external"
-          },
-          {
             "node_id": "LocalStack Pro: tests/aws/services/lambda_/test_lambda_managed_instances.py::TestLambdaManagedInstances::test_lifecycle",
             "test": "test_lifecycle",
             "response": "200",
@@ -15694,16 +15684,6 @@
             "origin": "external"
           },
           {
-            "node_id": "LocalStack Pro: tests/aws/services/iotanalytics/test_iotanalytics.py::TestIotAnalytics::test_create_iotanalytics_resources",
-            "test": "test_create_iotanalytics_resources",
-            "response": "200",
-            "error": "",
-            "snapshot_skipped": "",
-            "aws_validated": false,
-            "snapshot_tested": false,
-            "origin": "external"
-          },
-          {
             "node_id": "LocalStack Pro: tests/aws/services/lambda_/test_lambda_managed_instances.py::TestLambdaManagedInstances::test_update_capacity_provider_validations",
             "test": "test_update_capacity_provider_validations",
             "response": "200",
@@ -21664,16 +21644,6 @@
             "origin": "external"
           },
           {
-            "node_id": "LocalStack Pro: tests/aws/services/iotanalytics/test_iotanalytics.py::TestIotAnalytics::test_create_iotanalytics_resources",
-            "test": "test_create_iotanalytics_resources",
-            "response": "200",
-            "error": "",
-            "snapshot_skipped": "",
-            "aws_validated": false,
-            "snapshot_tested": false,
-            "origin": "external"
-          },
-          {
             "node_id": "LocalStack Pro: tests/aws/services/lambda_/test_lambda_managed_instances.py::TestLambdaManagedInstances::test_lifecycle",
             "test": "test_lifecycle",
             "response": "200",
@@ -25544,16 +25514,6 @@
             "error": "",
             "snapshot_skipped": "",
             "aws_validated": true,
-            "snapshot_tested": false,
-            "origin": "external"
-          },
-          {
-            "node_id": "LocalStack Pro: tests/aws/services/iotanalytics/test_iotanalytics.py::TestIotAnalytics::test_create_iotanalytics_resources",
-            "test": "test_create_iotanalytics_resources",
-            "response": "200",
-            "error": "",
-            "snapshot_skipped": "",
-            "aws_validated": false,
             "snapshot_tested": false,
             "origin": "external"
           },
@@ -33764,16 +33724,6 @@
             "error": "",
             "snapshot_skipped": "",
             "aws_validated": true,
-            "snapshot_tested": false,
-            "origin": "external"
-          },
-          {
-            "node_id": "LocalStack Pro: tests/aws/services/iotanalytics/test_iotanalytics.py::TestIotAnalytics::test_create_iotanalytics_resources",
-            "test": "test_create_iotanalytics_resources",
-            "response": "200",
-            "error": "",
-            "snapshot_skipped": "",
-            "aws_validated": false,
             "snapshot_tested": false,
             "origin": "external"
           },
@@ -42402,16 +42352,6 @@
             "error": "",
             "snapshot_skipped": "",
             "aws_validated": true,
-            "snapshot_tested": false,
-            "origin": "external"
-          },
-          {
-            "node_id": "LocalStack Pro: tests/aws/services/iotanalytics/test_iotanalytics.py::TestIotAnalytics::test_create_iotanalytics_resources",
-            "test": "test_create_iotanalytics_resources",
-            "response": "200",
-            "error": "",
-            "snapshot_skipped": "",
-            "aws_validated": false,
             "snapshot_tested": false,
             "origin": "external"
           },
