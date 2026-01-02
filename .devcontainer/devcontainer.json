@@ -1,0 +1,49 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/typescript-node
+{
+  "name": "nodejs",
+  // Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
+  "image": "mcr.microsoft.com/devcontainers/typescript-node:dev-22-bookworm",
+  // Features to add to the dev container. More info: https://containers.dev/features.
+  // "features": {},
+  // Use 'forwardPorts' to make a list of ports inside the container available locally.
+  "forwardPorts": [
+    4321
+  ],
+  "appPort": [
+    4321
+  ]
+  // Use 'postCreateCommand' to run commands after the container is created.
+  "postCreateCommand": "corepack enable && corepack prepare pnpm@latest --activate && corepack prepare yarn@stable --activate",
+  // Configure tool-specific properties.
+  "customizations": {
+    // Add extensions you want the devcontainer to automatically install for contributors.
+    // We'll populate this list once you provide your installed extensions.
+    "vscode": {
+      "extensions": [
+        "astro-build.astro-vscode",
+        "alefragnani.project-manager",
+        "arcticicestudio.nord-visual-studio-code",
+        "catppuccin.catppuccin-vsc",
+        "dbaeumer.vscode-eslint",
+        "fisheva.eva-theme",
+        "github.copilot",
+        "github.copilot-chat",
+        "github.github-vscode-theme",
+        "ivoh.sendtoterminalplus",
+        "jdinhlife.gruvbox",
+        "kennylong.kubernetes-yaml-formatter",
+        "navernoedenis.gruvbox-material-icons",
+        "nidu.copy-json-path",
+        "redhat.vscode-yaml",
+        "shakram02.bash-beautify",
+        "shyykoserhiy.git-autoconfig",
+        "tamasfe.even-better-toml",
+        "tinkertrain.theme-panda",
+        "usernamehw.remove-empty-lines"
+      ]
+    }
+  },
+  // Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
+  "remoteUser": "root"
+}
