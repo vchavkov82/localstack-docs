@@ -1,76 +1,12 @@
 ---
-title: Welcome to LocalStack for AWS Docs
-description: Get started with LocalStack for AWS Docs.
-template: doc
-editUrl: false
-sidebar:
-    label: Welcome
-    order: 1
+title: AWS
+description: Amazon Web Services documentation and guides
 ---
 
-import { OverviewCards, HeroCards } from '../../../components/OverviewCards';
-// Import SVGs from assets folder
-import rocketIcon from '../../../assets/images/GettingStarted_Color.svg';
-import buildingsIcon from '../../../assets/images/Enterprise_Color.svg';
-import wrenchIcon from '../../../assets/images/Tooling_color.svg';
-import connectionsIcon from '../../../assets/images/Integrations_Color.svg';
-import cubeIcon from '../../../assets/images/LSAWS_Color.svg';
-import starburstIcon from '../../../assets/images/Capabilities_Color.svg';
+# AWS
 
-<HeroCards 
-  cards={[
-    {
-      title: "Emulate AWS Services",
-      href: "/aws/services"
-    },
-    {
-      title: "Test Your AWS Apps", 
-      href: "/aws/capabilities"
-    }
-  ]}
-  client:load
-/>
+This section contains documentation and guides related to Amazon Web Services.
 
-## What would you like to do today?
+## Available Topics
 
-<OverviewCards 
-  cards={[
-    {
-      title: "Getting Started",
-      description: "Install and run LocalStack on your machine, and discover the benefits of local cloud development.",
-      href: "/aws/getting-started",
-      icon: rocketIcon.src
-    },
-    {
-      title: "Local AWS Services", 
-      description: "Browse through the AWS Services that LocalStack supports & emulates in your development environment.",
-      href: "/aws/services",
-      icon: cubeIcon.src
-    },
-    {
-      title: "Capabilities",
-      description: "Learn about the LocalStack's capabilities and using them to accelerate your development workflow.",
-      href: "/aws/capabilities",
-      icon: starburstIcon.src
-    },
-    {
-      title: "Tooling",
-      description: "Learn how LocalStack's Cloud Developer Tools can boost your development & testing efficiency.",
-      href: "/aws/tooling",
-      icon: wrenchIcon.src
-    },
-    {
-      title: "Integrations",
-      description: "Learn how to use LocalStack with your favorite cloud development tools, libraries & frameworks.",
-      href: "/aws/integrations",
-      icon: connectionsIcon.src
-    },
-    {
-      title: "Enterprise",
-      description: "Learn how LocalStack Enterprise provides additional security, flexibility, compliance & support.",
-      href: "/aws/enterprise",
-      icon: buildingsIcon.src
-    }
-  ]}
-  client:load
-/>
+- [AWS EKS Overview](./eks/overview/) - Learn about AWS Elastic Kubernetes Service, its features, architecture, and best practices.

@@ -1,0 +1,55 @@
+---
+title: AWS EKS Overview
+description: AWS EKS (Elastic Kubernetes Service) is a managed service that simplifies running Kubernetes on AWS by handling the control plane operations, allowing users to focus on deploying and managing containerized applications.
+---
+
+# AWS EKS Overview
+
+## Introduction to AWS EKS
+AWS Elastic Kubernetes Service (EKS) is a managed service that makes it easy to run Kubernetes on AWS without needing to install and operate your own Kubernetes control plane or nodes. EKS is certified Kubernetes conformant, so you can use existing tooling and plugins from partners and the Kubernetes community. Applications running on any standard Kubernetes environment are fully compatible and can be easily migrated to EKS.
+
+With AWS EKS, you get a highly available and secure Kubernetes control plane that is managed by AWS. This allows you to focus on building and running applications instead of managing the underlying infrastructure. EKS integrates with many AWS services to provide scalability and security for your applications, including Elastic Load Balancing for load distribution, IAM for authentication, and VPC for isolation.
+
+In summary, AWS EKS simplifies the process of running Kubernetes on AWS, enabling you to deploy, manage, and scale containerized applications using Kubernetes without the operational overhead of managing the control plane.
+
+## Key Features of AWS EKS
+1. **Managed Control Plane**: AWS EKS automatically manages the availability and scalability of the Kubernetes control plane nodes responsible for scheduling containers, managing the availability of applications, storing cluster data, and other key tasks.
+2. **High Availability**: EKS runs the Kubernetes management infrastructure across multiple AWS Availability Zones to eliminate a single point of failure.
+3. **Security**: EKS integrates with AWS Identity and Access Management (IAM) to provide fine-grained access control and secure communication channels.
+4. **Scalability**: EKS supports the deployment of applications across multiple Availability Zones, enabling you to scale your applications up or down based on demand.
+5. **Integration with AWS Services**: EKS integrates seamlessly with other AWS services such as Elastic Load Balancing, AWS Fargate, Amazon VPC, and AWS CloudTrail.
+
+## Benefits of Using AWS EKS
+- **Reduced Operational Overhead**: By offloading the management of the control plane to AWS, you can focus on developing and running your applications.
+- **Improved Security**: EKS provides built-in security features and integrates with AWS security services to help protect your applications.
+- **Cost Efficiency**: Pay only for the resources you use, with no upfront costs or long-term commitments.
+- **Flexibility**: EKS supports both EC2 and Fargate, giving you the flexibility to choose the right compute option for your workloads.
+
+## AWS EKS Architecture
+The architecture of AWS EKS consists of the following key components:
+1. **Control Plane**: Managed by AWS, the control plane includes the Kubernetes API server, etcd (the key-value store), and other components responsible for managing the state of the cluster.
+2. **Worker Nodes**: These are the EC2 instances or Fargate tasks that run your containerized applications. Worker nodes register with the control plane and receive instructions on which containers to run.
+3. **Networking**: EKS uses Amazon VPC to provide network isolation and security for your cluster. You can configure VPC subnets, security groups, and network policies to control traffic flow.
+4. **Storage**: EKS integrates with AWS storage services such as Amazon EBS, Amazon EFS, and Amazon S3 to provide persistent storage for your applications.
+5. **Monitoring and Logging**: EKS integrates with AWS CloudWatch and AWS CloudTrail to provide monitoring, logging, and auditing capabilities for your cluster.
+
+## EKS Cluster Components
+- **Kubernetes API Server**: The entry point for all administrative tasks in a Kubernetes cluster.
+- **etcd**: A distributed key-value store used to store all cluster data.
+- **Kubelet**: An agent that runs on each worker node and ensures containers are running in a Pod.
+- **Kube-proxy**: A network proxy that runs on each worker node and maintains network rules for communication between Pods.
+
+## Use Cases for AWS EKS
+1. **Microservices**: EKS is ideal for deploying microservices architectures, allowing you to manage and scale individual services independently.
+2. **CI/CD Pipelines**: Use EKS to run continuous integration and continuous deployment (CI/CD) pipelines, automating the build, test, and deployment processes.
+3. **Batch Processing**: EKS can be used to run batch processing workloads, enabling you to process large volumes of data efficiently.
+4. **Machine Learning**: Deploy machine learning models on EKS to take advantage of Kubernetes' scalability and orchestration capabilities.
+
+## Best Practices for AWS EKS
+- **Use IAM Roles for Service Accounts**: Assign IAM roles to Kubernetes service accounts to control access to AWS resources.
+- **Implement Network Policies**: Use Kubernetes network policies to control traffic flow between Pods and enhance security.
+- **Monitor and Log**: Use AWS CloudWatch and CloudTrail to monitor and log cluster activity, ensuring visibility and compliance.
+- **Automate with Infrastructure as Code**: Use tools like AWS CloudFormation or Terraform to automate the provisioning and management of your EKS clusters.
+- **Regularly Update Clusters**: Keep your EKS clusters and worker nodes up to date with the latest Kubernetes versions and security patches.
+
+By following these best practices, you can ensure that your AWS EKS clusters are secure, scalable, and efficient.
