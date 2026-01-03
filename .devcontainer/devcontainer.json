@@ -12,7 +12,7 @@
   ],
   "appPort": [
     4321
-  ]
+  ],
   // Use 'postCreateCommand' to run commands after the container is created.
   "postCreateCommand": "corepack enable && corepack prepare pnpm@latest --activate && corepack prepare yarn@stable --activate",
   // Configure tool-specific properties.
