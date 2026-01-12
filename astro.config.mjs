@@ -7,7 +7,6 @@ import starlightLinksValidator from 'starlight-links-validator';
 import starlightImageZoom from 'starlight-image-zoom';
 import sitemap from '@astrojs/sitemap';
 import starlightFullViewMode from 'starlight-fullview-mode';
-import starlightTocOverviewCustomizer from 'starlight-toc-overview-customizer';
 
 import markdoc from '@astrojs/markdoc';
 
@@ -188,9 +187,6 @@ export default defineConfig({
       plugins: [
         starlightImageZoom({
           showCaptions: true,
-        }),
-        starlightTocOverviewCustomizer({
-          overviewTitle: 'Back to top',
         }),
         starlightFullViewMode({
           leftSidebarEnabled: false,
@@ -534,5 +530,8 @@ export default defineConfig({
 
   vite: {
     plugins: [tailwindcss()],
+    server: {
+      allowedHosts: ['suse-06.lan.assistance.bg'],
+    },
   },
 });
