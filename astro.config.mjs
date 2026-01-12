@@ -204,7 +204,7 @@ export default defineConfig({
   vite: {
     plugins: [tailwindcss()],
     server: {
-      allowedHosts: ['uptime'],
+      allowedHosts: ['uptime', 'suse-06.lan.assistance.bg'],
     },
   },
 });
